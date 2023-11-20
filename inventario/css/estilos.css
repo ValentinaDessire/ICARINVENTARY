@@ -1,0 +1,141 @@
+form {
+    margin: 30px;
+    margin-left: 35%;
+    margin-bottom: -5px;
+}
+
+form input[type="search"] {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #FF69B4; /* Rosa claro */
+    border-radius: 10px;
+}
+
+form input[type="button"] {
+    padding: 13px;
+    margin: 0 10px;
+    border: 0;
+    border-radius: 13px;
+    background: #FF69B4; /* Rosa claro */
+    color: #FFF; /* Blanco */
+    font-size: 15px;
+    transition: .4s;
+}
+
+form input[type="button"]:hover {
+    cursor: pointer;
+    background: #F08080; /* Rosa oscuro */
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+table th, table tr {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+input[value="Modificar"] {
+    background: #FFB6C1; /* Rosa claro */
+    color: #FFF; /* Blanco */
+    border: 0px;
+    transition: .4s;
+    padding: 6px;
+}
+
+input[value="Modificar"]:hover {
+    background: #F08080; /* Rosa oscuro */
+    cursor: pointer;
+    transition: .4s;
+}
+
+
+input[value="Eliminar"] {
+    float: right;
+    margin-top: 0px;
+    background: #FFC0CB; /* Rosa claro */
+    color: #FFF; /* Blanco */
+    padding: 6px;
+    border: 0;
+    transition: .4s;
+    margin-right: 0px;
+}
+
+input[value="Eliminar"]:hover {
+    background: #FF1493; /* Rosa intenso */
+    cursor: pointer;
+    transition: .4s;
+}
+
+/*----------------------------------*/
+
+.modal {
+    margin-top: -170px;
+}
+
+.modal button {
+    float: right;
+    background: #FF69B4; /* Rosa claro */
+    padding: 8px;
+    border-radius: 15px;
+    border: 0;
+    transition: .3s;
+}
+
+.modal button:hover {
+    background: #F08080; /* Rosa oscuro */
+    transition: .3s;
+    cursor: pointer;
+}
+
+.modal fieldset {
+    background: #FFF; /* Blanco */
+    width: 40%;
+    position: absolute;
+    margin: 0px;
+    margin-top: 40px;
+    margin-left: 30%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.modal fieldset form {
+    margin-left: 0;
+}
+
+.modal fieldset input[type="text"] {
+    border: 0;
+    border-bottom: 1px solid;
+    margin: 8px 0;
+    margin-left: 0;
+    font-size: 15px;
+}
+
+.modal fieldset input[type="number"] {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.modal fieldset input[type="date"] {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.modal fieldset input[type="submit"] {
+    background: #FF69B4; /* Rosa claro */
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    transition: .4s;
+    color: #FFF; /* Blanco */
+}
+
+.modal fieldset input[type="submit"]:hover {
+    background: #F08080; /* Rosa oscuro */
+    cursor: pointer;
+    transition: .4s;
+}

@@ -1,0 +1,54 @@
+/* menu.css */
+
+.titulo-nota {
+    text-align: center;
+    background: #FF69B4; /* Rosa claro */
+    color: #FFF; /* Blanco */
+    padding: 15px 0;
+}
+
+.titulo-nota img {
+    float: right;
+    margin-top: -50px;
+    background: #FF69B4; /* Rosa claro */
+    margin-right: 50px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.lista-opciones {
+    background: #FF69B4; /* Rosa claro */
+    width: 16%;
+    float: left;
+}
+
+.lista-opciones .perfil {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.lista-opciones .perfil h3 {
+    margin-left: -20px;
+    color: #FFF; /* Blanco */
+}
+
+.lista-opciones .perfil img {
+    margin-top: 25px;
+}
+
+.lista-opciones .lista button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 14px;
+    background: #FF69B4; /* Rosa claro */
+    color: #FFF; /* Blanco */
+    border: 0;
+    transition: .4s;
+}
+
+.lista-opciones .lista button:hover {
+    background: #F08080; /* Rosa oscuro */
+    color: #FF69B4; /* Rosa claro */
+    cursor: pointer;
+    transition: .4s;
+}

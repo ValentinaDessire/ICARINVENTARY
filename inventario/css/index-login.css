@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/cr.png");
+    
+}
+
+.container {
+    max-width: 1050vh;
+}
+
+#login,
+#registro {
+    width: 100px;
+    margin-top: 70px;
+    text-align: center;
+    margin-right: 16%;
+}
+
+#login fieldset,
+#registro fieldset {
+    padding: 30px;
+    background: #FF69B4; /* Rosa claro */
+}
+
+#login input[type="text"],
+#login input[type="password"],
+#registro input[type="text"],
+#registro input[type="password"] {
+    background: transparent;
+    padding: 5px;
+    font-size: 15px;
+    border: 0;
+    border-bottom: 1px solid #FF69B4; /* Rosa claro */
+    color: #FFF; /* Blanco */
+}
+
+#login input[type="button"],
+#login input[type="submit"],
+#registro input[type="button"],
+#registro input[type="submit"] {
+    background: #FF69B4; /* Rosa claro */
+    padding: 5px;
+    width: 150px;
+    transition: .4s;
+    border: 0;
+    font-size: 15px;
+    color: #FFF; /* Blanco */
+}
+
+#login input[type="button"]:hover,
+#login input[type="submit"]:hover,
+#registro input[type="button"]:hover,
+#registro input[type="submit"]:hover {
+    background: #F08080; /* Rosa oscuro */
+    transition: .4s;
+    cursor: pointer;
+}
